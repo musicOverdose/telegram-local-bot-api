@@ -4,9 +4,7 @@ This repository provides a shared Telegram Local Bot API server deployment inten
 
 ## Image
 
-`aiogram/telegram-bot-api:latest`
-
-This is an unofficial Docker image maintained by the aiogram project that packages and runs Telegram's official Bot API server. It is not an official Telegram Docker image.
+aiogram/telegram-bot-api:latest
 
 ## Deploy with Portainer
 
@@ -43,7 +41,3 @@ The service uses the following environment variables:
 ## Future Bots
 
 Future bot containers can join the `telegram-bots` external network and communicate directly with the shared server at `http://telegram-bot-api:8081`.
-
-## Important
-
-Existing bots are **not** migrated by this repository. Migration of existing bot stacks will be handled separately.
