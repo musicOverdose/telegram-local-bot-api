@@ -1,18 +1,5 @@
-# Environment and secrets
 .env
-.env.*
-!.env.example
-
-# Local runtime data and logs
-data/
-temp/
-logs/
 *.log
-
-# Operating system and editor artifacts
 .DS_Store
-Thumbs.db
 .idea/
 .vscode/
-*.swp
-*~
